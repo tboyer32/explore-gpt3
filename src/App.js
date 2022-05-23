@@ -87,6 +87,7 @@ function App() {
           <input name="submit" id="submit" type="submit" />
         </form>
       </header>
+      <p>Unfortunately OpenAI is shutting down my API keys, despite them being hidden with gitignore.</p>
     
       {loading ? <img id="loading" src={loadingImg} /> : <img id="loading" className="hide" src={loadingImg} />}
 
