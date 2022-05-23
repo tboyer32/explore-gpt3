@@ -87,7 +87,11 @@ function App() {
           <input name="submit" id="submit" type="submit" />
         </form>
       </header>
-      <p>Unfortunately OpenAI is shutting down my API keys, despite them being hidden with gitignore.</p>
+      <p>
+        Unfortunately OpenAI is shutting down my API keys, despite them being stored in a .env file and hidden with gitignore<br />
+        The project works in a local environment. If you'd like to try it you can find it at 
+        <a href="https://github.com/tboyer32/explore-gpt3">github.com/tboyer32/explore-gpt3</a>
+      </p>
     
       {loading ? <img id="loading" src={loadingImg} /> : <img id="loading" className="hide" src={loadingImg} />}
 
